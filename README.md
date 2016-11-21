@@ -85,7 +85,6 @@ Installation
 It is recommended that you install [anaconda](https://docs.continuum.io/anaconda/install#) as your Python distribution, however you may manually install Python by
 
     sudo apt-get install python-dev python-pip
-    sudo apt-get install libatlas-base-dev gfortran
     sudo pip install numpy networkx scipy decorator pandas
 
 Install Qt and QMake if you have not already done so, specifically these packages: "libqt4-dev", "qt4-qmake", "libqwt-dev", "freeglut3-dev" and "zlib1g-dev".
@@ -134,7 +133,11 @@ Installing from scratch on a virtual machine (tested, works, but graphics may no
 
 Increasing the video memory could be useful: go in your VirtualBox installation folder and run:
 
-vboxmanage modifyvm "VIRTUAL_MACHINE_NAME" --vram 256
+    vboxmanage modifyvm "VIRTUAL_MACHINE_NAME" --vram 256
+
+If you are having difficulty building scipy try
+
+    sudo apt-get install libatlas-base-dev gfortran
 
 ------------------------------------
 
