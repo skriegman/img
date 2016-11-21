@@ -40,14 +40,15 @@ Citing
 
 If using this code for academic purposes please cite the following two papers:
 
-Hiller, J., & Lipson, H. (2014). 
+>Hiller, J., & Lipson, H. (2014). 
 >Dynamic simulation of soft multimaterial 3d-printed objects. 
-Soft Robotics, 1(1), 88-101.
+>Soft Robotics, 1(1), 88-101.
 
+<br>
 
-Cheney, N., MacCurdy, R., Clune, J., & Lipson, H. (2013). 
+>Cheney, N., MacCurdy, R., Clune, J., & Lipson, H. (2013). 
 >Unshackling evolution: evolving soft robots with multiple materials and a powerful generative encoding. 
-In Proceedings of the 15th annual conference on Genetic and evolutionary computation (pp. 167-174). ACM.
+>In Proceedings of the 15th annual conference on Genetic and evolutionary computation (pp. 167-174). ACM.
 
 
 Dependencies
