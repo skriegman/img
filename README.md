@@ -40,16 +40,17 @@ Citing
 
 If using this code for academic purposes please cite the following two papers:
 
-    Hiller, J., & Lipson, H. (2014). 
-    *Dynamic simulation of soft multimaterial 3d-printed objects.*
-    Soft Robotics, 1(1), 88-101.
+Hiller, J., & Lipson, H. (2014). 
+*Dynamic simulation of soft multimaterial 3d-printed objects.*
+Soft Robotics, 1(1), 88-101.
 
 
-    Cheney, N., MacCurdy, R., Clune, J., & Lipson, H. (2013). 
-    *Unshackling evolution: evolving soft robots with multiple materials and a powerful generative encoding.* 
-    In Proceedings of the 15th annual conference on Genetic and evolutionary computation (pp. 167-174). ACM.
+Cheney, N., MacCurdy, R., Clune, J., & Lipson, H. (2013). 
+*Unshackling evolution: evolving soft robots with multiple materials and a powerful generative encoding.* 
+In Proceedings of the 15th annual conference on Genetic and evolutionary computation (pp. 167-174). ACM.
 
 
+<!--
 Dependencies
 ------------
 
@@ -70,7 +71,7 @@ Dependencies
 - [matplotlib](http://matplotlib.org/)
 
 - [seaborn](http://seaborn.pydata.org/)
-
+-->
 
 Installation
 ------------
@@ -83,7 +84,7 @@ Installation
 
 <!--    pip install git+git://github.com/mwaskom/seaborn.git#egg=seaborn-->
 
-It is recommended that you install [anaconda](https://docs.continuum.io/anaconda/install#) as your Python distribution, however you may manually install Python by
+It is recommended that you install [anaconda](https://docs.continuum.io/anaconda/install#) as your Python distribution, however if you instead choose to manually install Python,
 
     sudo apt-get install python-dev python-pip
     sudo pip install numpy networkx scipy decorator pandas
