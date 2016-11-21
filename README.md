@@ -11,7 +11,7 @@ evosoro: soft robot simulator
 </a>
 
 <a href=https://youtu.be/4ZqdvYrZ3ro>
-<img src="https://github.com/skriegman/test/blob/master/francesco2.png" height="135" width="135">
+<img src="https://github.com/skriegman/test/blob/master/swimming.png" height="135" width="135">
 </a>
 
 <a href=https://youtu.be/Cw2SwPNwcfM>
