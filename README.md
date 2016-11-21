@@ -160,14 +160,15 @@ The .vxa files for the best performing individuals will be saved in evosoro/evos
 
 ---------------------------------------------
 
-#### example scripts
+The examples:
+
 1. **basic.py** evolve running soft robots in a terrestrial environment. 
 
 2. **swimming_basic.py** a simple mesh-based fluid model, that allows you to observe how soft morphologies evolve in a fluid environment.
 
 3. **swimming_complex.py** evolve soft robots in a simple fluid environment along with additional attribtues that allow for more complexe behaviors.
 
-4. **growth_basic.py** plants that grow towards a light source
+4. **growth_basic.py** plants that grow towards a light source.
 
 --------------------------------------------
 
