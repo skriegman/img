@@ -124,14 +124,15 @@ Navigate back out to the examples folder and run basic.py
     cd ../../examples
     python basic.py
     
-    
+
+<!--
 ------------------------------------
-Installing from scratch on a virtual machine (tested, works, but graphics may not work properly):
+**Installing from scratch on a virtual machine (graphics may not work properly)**
 - Install the latest version of VirtualBox
 - Download Ubuntu 14.04 x64 (ISO) and install it
 - Install VirtualBox Guest Additions (openGL support and other useful features)
 - Then run the virtual machine, and follow the instructions below
---> a ready to use VirtualBox image is available
+..*a ready to use VirtualBox image is available
 
 Increasing the video memory could be useful: go in your VirtualBox installation folder and run:
 
@@ -142,6 +143,7 @@ If you are having difficulty building scipy try
     sudo apt-get install libatlas-base-dev gfortran
 
 ------------------------------------
+-->
 
 
 Examples
