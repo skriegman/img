@@ -19,11 +19,11 @@ evosoro: soft robot simulator
 </a>
 
 <a href=https://www.youtube.com/watch?v=XqIUJcuOgmwl>
-<img src="https://github.com/skriegman/test/blob/master/cage.png" height="135" width="135">
+<img src="https://github.com/skriegman/test/blob/master/teeth1.png" height="135" width="135">
 </a>
 
 <a href=https://www.youtube.com/watch?v=r_SL8VUt-wA>
-<img src="https://github.com/skriegman/test/blob/master/teeth.png" height="135" width="135">
+<img src="https://github.com/skriegman/test/blob/master/cage.png" height="135" width="135">
 </a>
 
 </div>
