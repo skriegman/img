@@ -15,7 +15,7 @@ evosoro: soft robot simulator
 </a>
 
 <a href=https://youtu.be/Cw2SwPNwcfM>
-<img src="https://github.com/skriegman/test/blob/master/francesco3.png" height="135" width="135">
+<img src="https://github.com/skriegman/test/blob/master/plant.png" height="135" width="135">
 </a>
 
 <a href=https://www.youtube.com/watch?v=XqIUJcuOgmwl>
@@ -23,7 +23,7 @@ evosoro: soft robot simulator
 </a>
 
 <a href=https://www.youtube.com/watch?v=r_SL8VUt-wA>
-<img src="http://seaborn.pydata.org/_static/scatterplot_categorical_thumb.png" height="135" width="135">
+<img src="http://seaborn.pydata.org/_static/nick.png" height="135" width="135">
 </a>
 
 </div>
