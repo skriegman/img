@@ -158,6 +158,8 @@ Then selecting the desired .vxa file from
 
 The .vxa files for the best performing individuals will be saved in evosoro/evosoro/basic_data/bestSoFar/fitOnly.
 
+
+<!--
 ---------------------------------------------
 
 The examples:
@@ -171,7 +173,8 @@ The examples:
 4. **growth_basic.py** plants that grow towards a light source.
 
 --------------------------------------------
-
+ 
+-->
 
 Documentation
 -------------
