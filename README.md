@@ -78,13 +78,13 @@ Installation
 
 <!--To install the released version, just do-->
     
-<!--    pip install seaborn-->
+<!--    pip install evosoro-->
 
 <!--You may instead want to use the development version from Github, by running-->
 
-<!--    pip install git+git://github.com/mwaskom/seaborn.git#egg=seaborn-->
+<!--    pip install git+git://github.com/skriegman/evosoro.git#egg=evosoro-->
 
-It is recommended that you install [anaconda](https://docs.continuum.io/anaconda/install#) as your Python distribution, however if you instead choose to manually install Python,
+It is recommended that you install [anaconda](https://docs.continuum.io/anaconda/install#) as your Python distribution. Anaconda is a free package manager and Python distribution that includes all of the dependies required for evosoro. However if you instead choose to manually install Python,
 
     sudo apt-get install python-dev python-pip
     sudo pip install numpy networkx scipy decorator pandas
@@ -148,6 +148,9 @@ If you are having difficulty building scipy try
 
 Examples
 --------
+
+#basic.py
+
 
 todo: refer to examples, how to run them and run associated vxa
 
