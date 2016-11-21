@@ -3,7 +3,7 @@ evosoro: soft robot simulator
 
 <div class="row">
 <a href=https://www.youtube.com/watch?v=XqIUJcuOgmwl>
-<img src="http://seaborn.pydata.org/_static/hexbin_marginals_thumb.png" height="135" width="135">
+<img src="http://imgur.com/a/xDYZw" height="135" width="135">
 </a>
 
 <a href=https://youtu.be/EXuR_soDnFo>
