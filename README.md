@@ -152,7 +152,9 @@ After running basic.py for some time, you can start having a look at some of the
 
     ./evosoro/evosoro/_voxcad/release/VoxCad
 
-Then selecting the desired .vxa file from "File -> Import -> Simulation"
+Then selecting the desired .vxa file from 
+
+    "File -> Import -> Simulation"
 
 The .vxa files for the best performing individuals will be saved in evosoro/evosoro/basic_data/bestSoFar/fitOnly.
 
