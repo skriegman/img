@@ -1,13 +1,8 @@
 evosoro: soft robot simulator
 =======================================
 
-<div class="row">
-<a href=https://www.youtube.com/watch?v=XqIUJcuOgmwl>
-<img src="https://github.com/skriegman/test/blob/master/nick.png" height="135" width="135">
-</a>
-
 <a href=https://youtu.be/EXuR_soDnFo>
-<img src="http://seaborn.pydata.org/_static/anscombes_quartet_thumb.png" height="135" width="135">
+<img src="https://github.com/skriegman/test/blob/master/nick.png" height="135" width="135">
 </a>
 
 <a href=https://www.youtube.com/watch?v=HgWQ-gPIvt4>
@@ -20,6 +15,11 @@ evosoro: soft robot simulator
 
 <a href=https://youtu.be/Cw2SwPNwcfM>
 <img src="https://github.com/skriegman/test/blob/master/francesco3.png" height="135" width="135">
+</a>
+
+<div class="row">
+<a href=https://www.youtube.com/watch?v=XqIUJcuOgmwl>
+<img src="https://github.com/skriegman/test/blob/master/nick.png" height="135" width="135">
 </a>
 
 <a href=https://www.youtube.com/watch?v=r_SL8VUt-wA>
