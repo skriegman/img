@@ -149,7 +149,29 @@ If you are having difficulty building scipy try
 Examples
 --------
 
-#basic.py
+1. **basic.py** In this example we evolve running soft robots in a terrestrial environment. After running this program for some time, you can start having a look at some of the evolved morphologies and behaviors by opening up some of the generated .vxa located in evosoro/evosoro/basic_data/bestSoFar/fitOnly with ./evosoro/evosoro/_voxcad/release/VoxCad (then selecting the desired .vxa file from "File -> Import -> Simulation")
+
+
+**swimming_basic.py**In this example we plug a different version of VoxCad in (_voxcad_land_water), which implements some additional
+features. One of them is a simple mesh-based fluid model, that allows you to observe how soft morphologies evolve in a
+fluid environment.
+
+The setup is almost identical to basic.py (same genotype and phenotype, based on a discrete materials palette), with the
+addition of few parameters involved in the fluid model.
+
+The .vxa files generated in this example will embed two additional tags (FluidEnvironment and AggregateDragCoefficient)
+telling to the physics engine that we want to simulate a fluid environment (floor and gravity are disabled, drag forces
+are added).
+
+**swimming_complex.py**In this example we plug a different version of VoxCad in (_voxcad_land_water),which implements some additional features.
+
+We evolve soft robots in a simple fluid environment (as in swimming_basic.py). In addition to some discrete phenotypic
+traits (voxel material based on a predefined palette of materials), we evolve some continuous phenotypic traits:
+the stiffness distribution and the actuation phase offset, which are real values associated to each voxel. We also
+evolve the global actuation frequency.
+
+
+**growth_basic.py**
 
 
 todo: refer to examples, how to run them and run associated vxa
