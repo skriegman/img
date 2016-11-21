@@ -3,7 +3,8 @@ evosoro: soft robot simulator
 
 <div class="row">
 <a href=https://www.youtube.com/watch?v=XqIUJcuOgmwl>
-<img src="http://imgur.com/a/xDYZw" height="135" width="135">
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/xDYZw"><a href="//imgur.com/xDYZw"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<!-- <img src="http://imgur.com/a/xDYZw" height="135" width="135"> -->
 </a>
 
 <a href=https://youtu.be/EXuR_soDnFo>
