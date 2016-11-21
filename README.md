@@ -11,15 +11,15 @@ evosoro: soft robot simulator
 </a>
 
 <a href=https://www.youtube.com/watch?v=HgWQ-gPIvt4>
-<img src="http://seaborn.pydata.org/_static/many_pairwise_correlations_thumb.png" height="135" width="135">
+<img src="https://github.com/skriegman/test/blob/master/francesco1.png" height="135" width="135">
 </a>
 
 <a href=https://youtu.be/4ZqdvYrZ3ro>
-<img src="http://seaborn.pydata.org/_static/many_facets_thumb.png" height="135" width="135">
+<img src="https://github.com/skriegman/test/blob/master/francesco2.png" height="135" width="135">
 </a>
 
 <a href=https://youtu.be/Cw2SwPNwcfM>
-<img src="http://seaborn.pydata.org/_static/scatterplot_matrix_thumb.png" height="135" width="135">
+<img src="https://github.com/skriegman/test/blob/master/francesco3.png" height="135" width="135">
 </a>
 
 <a href=https://www.youtube.com/watch?v=r_SL8VUt-wA>
