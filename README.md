@@ -159,6 +159,7 @@ Then selecting the desired .vxa file from
 The .vxa files for the best performing individuals will be saved in evosoro/evosoro/basic_data/bestSoFar/fitOnly.
 
 ---------------------------------------------
+
 #### example scripts
 1. **basic.py** evolve running soft robots in a terrestrial environment. 
 
@@ -167,6 +168,7 @@ The .vxa files for the best performing individuals will be saved in evosoro/evos
 3. **swimming_complex.py** evolve soft robots in a simple fluid environment along with additional attribtues that allow for more complexe behaviors.
 
 4. **growth_basic.py** plants that grow towards a light source
+
 --------------------------------------------
 
 
