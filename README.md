@@ -29,20 +29,11 @@ evosoro: soft robot simulator
 </div>
 
 Evosoro is a Python soft robot simulation library based on the Voxelyze physics engine. It provides a high-level interface for the dynamic simulation and automated design of soft multimaterial robots.
-<!-- evolutionary design of soft multimaterial robots. -->
 
 Evosoro was designed and developed by the [Morphology, Evolution & Cognition Laboratory](http://www.meclab.org), University of Vermont. 
 The library is built on top of the open source [VoxCAD](https://github.com/jonhiller/VoxCAD
 ) and the underlying voxel physics engine ([Voxelyze](https://github.com/jonhiller/Voxelyze)) which were both developed by the [Creative Machines Lab](http://www.creativemachineslab.com/), Columbia University.
 
-
-
-<!--
-<a href="https://skriegman.github.io/" target="_blank">Sam Kriegman</a>, <a href="http://sssa.bioroboticsinstitute.it/user/1507" target="_blank">Francesco Corucci</a> and <a href="http://www.ncheney.com/" target="_blank">Nick Cheney</a> at 
-the <a href="http://www.meclab.org" target="_blank">Morphology, Evolution & Cognition Laboratory</a>, 
-<a href="http://www.uvm.edu/~cmplxsys/" target="_blank">Vermont Complex Systems Center</a>,
-University of Vermont, USA.
--->
 
 1. Citing
 ------
@@ -70,7 +61,7 @@ Dependencies
 
 - Python 2.7
 
-### Mandatory
+#### Mandatory
 
 - [numpy](http://www.numpy.org/)
 
@@ -78,7 +69,7 @@ Dependencies
 
 - [networkx](http://networkx.github.io/)
 
-### Recommended
+#### Recommended
 
 - [pandas](http://pandas.pydata.org/)
 
@@ -148,26 +139,6 @@ Navigate back out to the examples folder and run basic.py
     python basic.py
 
 You should start seeing some output being produced in your console, and a new directory being created (evosoro/evosoro/basic_data), which contains the results of the simulation.
-    
-<!--
-------------------------------------
-**Installing from scratch on a virtual machine (graphics may not work properly)**
-- Install the latest version of VirtualBox
-- Download Ubuntu 14.04 x64 (ISO) and install it
-- Install VirtualBox Guest Additions (openGL support and other useful features)
-- Then run the virtual machine, and follow the instructions below
-..*a ready to use VirtualBox image is available
-
-Increasing the video memory could be useful: go in your VirtualBox installation folder and run:
-
-    vboxmanage modifyvm "VIRTUAL_MACHINE_NAME" --vram 256
-
-If you are having difficulty building scipy try
-
-    sudo apt-get install libatlas-base-dev gfortran
-
-------------------------------------
--->
 
 
 3. Examples
@@ -193,22 +164,20 @@ The .vxa files for the best performing individuals will be saved in
 Once the design is loaded, you can start the physics simulation by clicking the <img src="https://github.com/skriegman/evosoro/blob/master/evosoro/_voxcad/VoxCad/Icons/Sandbox.png" height="25" width="25"> icon in the top bar ("Physics Sandbox"). 
 
 
-<!--
+
 ---------------------------------------------
 
-The examples:
+#### The examples:
 
-1. **basic.py** evolve running soft robots in a terrestrial environment. 
+1. **running.py** evolve running soft robots in a terrestrial environment. 
 
-2. **swimming_basic.py** a simple mesh-based fluid model, that allows you to observe how soft morphologies evolve in a fluid environment.
+2. **swimming.py** a simple mesh-based fluid model, that allows you to observe how soft morphologies evolve in a fluid environment.
 
-3. **swimming_complex.py** evolve soft robots in a simple fluid environment along with additional attribtues that allow for more complexe behaviors.
-
-4. **growth_basic.py** plants that grow towards a light source.
+3. **growing.py** plants that grow towards a light source.
 
 --------------------------------------------
  
--->
+
 
 4. Documentation
 -------------
@@ -219,49 +188,5 @@ Online documentation for Voxelyze is available [here](http://jonhiller.github.io
 5. License
 -------
 
-Released under a MIT License (MIT)
-
-
-6. References
---------------------
-
-The difficult of co-optimizing brain and body:
-
->Cheney, N., Bongard, J., SunSpiral, V., & Lipson, H. (2016). *On the Difficulty of Co-Optimizing Morphology and Control in Evolved Virtual Creatures.* In Proceedings of The Fifteenth International Conference on the Synthesis and Simulation of Living Systems, ALIFE XV
-
-Evolution of growing soft robots:
-
->Corucci, F., Cheney, N., Lipson, H., Laschi, C., & Bongard, J. (2016). *Material properties affect evolution’s ability to exploit morphological computation in growing soft-bodied creatures.* In Proceedings of The Fifteenth International Conference on the Synthesis and Simulation of Living Systems, ALIFE XV (pp. 234-241).
-
-
-Evolution of swimming soft robots:
-
->Corucci, F., Cheney, N., Lipson, H., Laschi, C., & Bongard, J. (2016). *Evolving swimming soft-bodied creatures.* In Late Breaking Proceedings of The Fifteenth International Conference on the Synthesis and Simulation of Living Systems, ALIFE XV (p. 6).
-
-From a cellular automata perspective:
-
->Cheney, N., & Lipson, H. (2016). *Topological evolution for embodied cellular automata.* Theoretical Computer Science, 633, 19-27.
-
-A more complex task:
-
->Cheney, N., Bongard, J., & Lipson, H. (2015). *Evolving Soft Robots in Tight Spaces.* In Proceedings of the 2015 Annual Conference on Genetic and Evolutionary Computation (pp. 935-942). ACM.
-
-A more complex controller:
-
->Cheney, N., Clune, J., & Lipson, H. (2014). *Evolved electrophysiological soft robots.* In ALIFE (Vol. 14, pp. 222-229).
-
-
-Voxelyze & VoxCad:
-
->Hiller, J., & Lipson, H. (2014). *Dynamic simulation of soft multimaterial 3d-printed objects.* Soft Robotics, 1(1), 88-101.
-
-
-Evolution of soft robots using generative encodings (CPPN):
-
->Cheney, N., MacCurdy, R., Clune, J., & Lipson, H. (2013). *Unshackling evolution: evolving soft robots with multiple materials and a powerful generative encoding.* In Proceedings of the 15th annual conference on Genetic and evolutionary computation (pp. 167-174). ACM.
-
-Voxelyze & VoxCad plus evolving (and printing) soft robots:
-
->Hiller, J., & Lipson, H. (2012). *Automatic design and manufacture of soft robots.* IEEE Transactions on Robotics, 28(2), 457-466.
-
+Released under a MIT License (MIT).
 
