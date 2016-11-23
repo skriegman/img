@@ -77,22 +77,7 @@ Encoding and optimization:
 - [seaborn](http://seaborn.pydata.org/)
 
 
-
-3. Installation
-------------
-
-<!--To install the released version, just do-->
-    
-<!--    pip install evosoro-->
-
-<!--You may instead want to use the development version from Github, by running-->
-
-<!--    pip install git+git://github.com/skriegman/evosoro.git#egg=evosoro-->
-
-
-### If you do not meet the requirements outlined in Section 2 start here.
-
-------------------------------------------------------------------
+### If you do not fulfil the mandatory dependencies...
 
 It is recommended that you install [Anaconda](https://docs.continuum.io/anaconda/install#) as your Python (2.7) distribution. Anaconda is a free package manager and Python distribution that includes all of the dependencies required for evosoro. However if you instead choose to manually install Python 2.7,
 
@@ -107,7 +92,17 @@ If you experience an error installing scipy it might be due to the incompatibili
 ------------------------------------------------------------------
 
 
-### If you already have Anaconda (2.7) or otherwise fulfil the mandatory dependencies start here.
+3. Installation
+------------
+
+<!--To install the released version, just do-->
+    
+<!--    pip install evosoro-->
+
+<!--You may instead want to use the development version from Github, by running-->
+
+<!--    pip install git+git://github.com/skriegman/evosoro.git#egg=evosoro-->
+
 
 
 Install Qt and QMake if you have not already done so, specifically these packages: "libqt4-dev", "qt4-qmake", "libqwt-dev", "freeglut3-dev" and "zlib1g-dev".
