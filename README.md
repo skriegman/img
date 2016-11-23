@@ -38,8 +38,7 @@ The library is built on top of the open source [VoxCAD](https://github.com/jonhi
 1. Citing
 ------
 
-A full list of papers which contributed to the development of this code base may be found in Section 6. 
-If using this code for academic purposes please cite the following two papers and consider citing any relevant publications from Section 6. 
+If using this code for academic purposes please cite the following two papers
 
 Physical simulation:
 
@@ -56,7 +55,7 @@ Encoding and optimization:
 
 
 
-Dependencies
+2. Dependencies
 ------------
 
 - Python 2.7
@@ -79,7 +78,7 @@ Dependencies
 
 
 
-2. Installation
+3. Installation
 ------------
 
 <!--To install the released version, just do-->
@@ -141,7 +140,7 @@ Navigate back out to the examples folder and run basic.py
 You should start seeing some output being produced in your console, and a new directory being created (evosoro/evosoro/basic_data), which contains the results of the simulation.
 
 
-3. Examples
+4. Examples
 --------
 
 After running basic.py for some time, you can start having a look at some of the evolved morphologies and behaviors by opening up some of the generated .vxa files within the VoxCAD GUI. A .vxa file is just an XML file representing a robot that can be simulated by VoxCad/Voxelyze. Different custom versions of the physics engine can play slightly different .vxa files.
@@ -179,13 +178,13 @@ Once the design is loaded, you can start the physics simulation by clicking the 
  
 
 
-4. Documentation
+5. Documentation
 -------------
 
 Online documentation for Voxelyze is available [here](http://jonhiller.github.io/Voxelyze/annotated.html).
 
 
-5. License
+6. License
 -------
 
 Released under a MIT License (MIT).
