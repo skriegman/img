@@ -152,8 +152,7 @@ You should start seeing some output being produced in your console, and a new di
 4. Examples
 --------
 
-After running basic.py for some time, you can start having a look at some of the evolved morphologies and behaviors by opening up some of the generated .vxa files within the VoxCAD GUI. A .vxa file is just an XML file representing a robot that can be simulated by VoxCad/Voxelyze. Different custom versions of the physics engine can play slightly different .vxa files.
-Navigate to evosoro/evosoro/_voxcad/release:
+After running basic.py for some time, you can start having a look at some of the evolved morphologies and behaviors by opening up some of the generated .vxa files within the VoxCAD GUI. A .vxa file is just an XML file representing a robot that can be simulated by VoxCad/Voxelyze. Navigate to evosoro/evosoro/_voxcad/release:
     
     cd ../_voxcad/release
     
@@ -172,7 +171,7 @@ The .vxa files for the best performing individuals will be saved in
 Once the design is loaded, you can start the physics simulation by clicking the <img src="https://github.com/skriegman/evosoro/blob/master/evosoro/_voxcad/VoxCad/Icons/Sandbox.png" height="25" width="25"> icon in the top bar ("Physics Sandbox"). 
 
 
-
+<!--
 ---------------------------------------------
 
 #### The examples
@@ -184,7 +183,7 @@ Once the design is loaded, you can start the physics simulation by clicking the 
 - **growing.py** plants that grow towards a light source.
 
 --------------------------------------------
- 
+ -->
 
 
 5. Documentation
