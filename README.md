@@ -77,7 +77,6 @@ Encoding and optimization:
 - [seaborn](http://seaborn.pydata.org/)
 
 
---------------------------------------------------------------
 
 #### If you do not fulfil the mandatory dependencies
 
@@ -91,7 +90,7 @@ If you experience an error installing scipy it might be due to the incompatibili
 	sudo apt-get install libatlas-base-dev gfortran
 	sudo pip install scipy numpy networkx decorator
 
-------------------------------------------------------------------
+------------
 
 
 3. Installation
