@@ -38,7 +38,7 @@ The library is built on top of the open source [VoxCAD](https://github.com/jonhi
 1. Citing
 ------
 
-If using this code for academic purposes please cite the following two papers
+If using this code for academic purposes please cite the following two papers,
 
 Physical simulation:
 
@@ -166,13 +166,13 @@ Once the design is loaded, you can start the physics simulation by clicking the 
 
 ---------------------------------------------
 
-#### The examples:
+#### The examples
 
-1. **running.py** evolve running soft robots in a terrestrial environment. 
+- **running.py** evolve running soft robots in a terrestrial environment. 
 
-2. **swimming.py** a simple mesh-based fluid model, that allows you to observe how soft morphologies evolve in a fluid environment.
+- **swimming.py** a simple mesh-based fluid model, that allows you to observe how soft morphologies evolve in a fluid environment.
 
-3. **growing.py** plants that grow towards a light source.
+- **growing.py** plants that grow towards a light source.
 
 --------------------------------------------
  
