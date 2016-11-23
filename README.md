@@ -78,7 +78,7 @@ Encoding and optimization:
 
 
 
-#### If you fulfil the mandatory dependencies skip to Section 3 for installation instructions, otherwise
+**If you fulfil the mandatory dependencies skip to Section 3 for installation instructions, otherwise** 
 it is recommended that you install [Anaconda](https://docs.continuum.io/anaconda/install#) as your Python (2.7) distribution. Anaconda is a free package manager and Python distribution that includes all of the dependencies required for evosoro. However if you instead choose to manually install Python 2.7,
 
     sudo apt-get install python-dev python-pip
