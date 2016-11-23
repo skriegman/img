@@ -31,7 +31,12 @@ evosoro: soft robot simulator
 Evosoro is a Python soft robot simulation library based on the Voxelyze physics engine. It provides a high-level interface for the dynamic simulation and automated design of soft multimaterial robots.
 <!-- evolutionary design of soft multimaterial robots. -->
 
-The library was designed and developed by the <a href="http://www.meclab.org" target="_blank">Morphology, Evolution & Cognition Laboratory</a>, University of Vermont, USA.
+Evosoro was designed and developed by the [Morphology, Evolution & Cognition Laboratory](http://www.meclab.org), University of Vermont. 
+The library is built on top of the open source [VoxCAD](https://github.com/jonhiller/VoxCAD
+) and the underlying voxel physics engine ([Voxelyze](https://github.com/jonhiller/Voxelyze)) which were both developed by the [Creative Machines Lab](http://www.creativemachineslab.com/), Columbia University.
+
+
+
 <!--
 <a href="https://skriegman.github.io/" target="_blank">Sam Kriegman</a>, <a href="http://sssa.bioroboticsinstitute.it/user/1507" target="_blank">Francesco Corucci</a> and <a href="http://www.ncheney.com/" target="_blank">Nick Cheney</a> at 
 the <a href="http://www.meclab.org" target="_blank">Morphology, Evolution & Cognition Laboratory</a>, 
@@ -59,7 +64,7 @@ Encoding and optimization:
 
 
 
-<!--
+
 Dependencies
 ------------
 
@@ -73,14 +78,15 @@ Dependencies
 
 - [networkx](http://networkx.github.io/)
 
-- [pandas](http://pandas.pydata.org/)
-
 ### Recommended
+
+- [pandas](http://pandas.pydata.org/)
 
 - [matplotlib](http://matplotlib.org/)
 
 - [seaborn](http://seaborn.pydata.org/)
--->
+
+
 
 2. Installation
 ------------
@@ -93,10 +99,17 @@ Dependencies
 
 <!--    pip install git+git://github.com/skriegman/evosoro.git#egg=evosoro-->
 
+
 It is recommended that you install [Anaconda](https://docs.continuum.io/anaconda/install#) as your Python (2.7) distribution. Anaconda is a free package manager and Python distribution that includes all of the dependencies required for evosoro. However if you instead choose to manually install Python 2.7,
 
     sudo apt-get install python-dev python-pip
-    sudo pip install numpy networkx scipy decorator pandas
+    sudo pip install scipy numpy networkx decorator  
+
+If you experience an error installing scipy it might be due to the incompatibility of different fortran compilers (see [scipy installation](https://docs.scipy.org/doc/numpy-1.10.1/user/install.html)). In most cases, you must build numpy/scipy with the same fortran compiler used to build blas/lapack/atlas. Try the following:
+
+	sudo apt-get install libatlas-base-dev gfortran
+	sudo pip install scipy numpy networkx decorator
+
 
 Install Qt and QMake if you have not already done so, specifically these packages: "libqt4-dev", "qt4-qmake", "libqwt-dev", "freeglut3-dev" and "zlib1g-dev".
 
