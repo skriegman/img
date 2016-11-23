@@ -78,7 +78,7 @@ Encoding and optimization:
 
 
 
-#### If you do not fulfil the mandatory dependencies
+#### If you fulfil the mandatory dependencies continue to Section 3 for installation instructions, otherwise
 
 It is recommended that you install [Anaconda](https://docs.continuum.io/anaconda/install#) as your Python (2.7) distribution. Anaconda is a free package manager and Python distribution that includes all of the dependencies required for evosoro. However if you instead choose to manually install Python 2.7,
 
@@ -90,7 +90,7 @@ If you experience an error installing scipy it might be due to the incompatibili
 	sudo apt-get install libatlas-base-dev gfortran
 	sudo pip install scipy numpy networkx decorator
 
-------------
+
 
 
 3. Installation
