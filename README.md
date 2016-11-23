@@ -109,7 +109,6 @@ If you experience an error installing scipy it might be due to the incompatibili
 
 ### If you already have Anaconda (2.7) or otherwise fulfil the mandatory dependencies start here.
 
----------------------------------------------------------------------
 
 Install Qt and QMake if you have not already done so, specifically these packages: "libqt4-dev", "qt4-qmake", "libqwt-dev", "freeglut3-dev" and "zlib1g-dev".
 
